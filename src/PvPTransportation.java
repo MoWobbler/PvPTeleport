@@ -142,12 +142,28 @@ public class PvPTransportation {
 			case GRASS:
 			case DEAD_BUSH:
 			case DANDELION:
-			case ROSE_RED:
+			case POPPY:
 			case BROWN_MUSHROOM:
 			case RED_MUSHROOM:
 			case TORCH:
-			case SIGN:
-			case WALL_SIGN:
+			
+			case OAK_SIGN:
+			case SPRUCE_SIGN:
+			case BIRCH_SIGN:
+			case JUNGLE_SIGN:
+			case ACACIA_SIGN:
+			case DARK_OAK_SIGN:
+			case CRIMSON_SIGN:
+			case WARPED_SIGN:
+				
+			case OAK_WALL_SIGN:
+			case SPRUCE_WALL_SIGN:
+			case BIRCH_WALL_SIGN:
+			case JUNGLE_WALL_SIGN:	
+			case ACACIA_WALL_SIGN:
+			case DARK_OAK_WALL_SIGN:
+			case CRIMSON_WALL_SIGN:
+			case WARPED_WALL_SIGN:
 			      return true;
 			default:
 			      return false;
